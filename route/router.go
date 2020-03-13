@@ -1,10 +1,10 @@
 package route
 
 import (
-	. "my/apis"
-	"my/database"
-	_ "my/logger"
-	. "my/models"
+	. "../apis"
+	"../database"
+	_ "../logger"
+	. "../models"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"
