@@ -1,13 +1,13 @@
 package route
 
 import (
-	. "../apis"
-	"../database"
-	_ "../logger"
-	. "../models"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"
+	. "go-gin/apis"
+	"go-gin/database"
+	_ "go-gin/logger"
+	. "go-gin/models"
 	"log"
 	"net/http"
 	"strconv"

@@ -1,4 +1,4 @@
-module github.com/go-gin
+module go-gin
 
 go 1.14
 

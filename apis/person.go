@@ -1,10 +1,10 @@
 package apis
 
 import (
-	. "my/models"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"
+	. "go-gin/models"
 	"log"
 	"net/http"
 )

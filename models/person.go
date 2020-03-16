@@ -1,7 +1,7 @@
 package models
 
 import (
-	"my/database"
+	"go-gin/database"
 	"log"
 )
 

@@ -4,11 +4,11 @@
  - using env:	export GIN_MODE=release
  - using code:	gin.SetMode(gin.ReleaseMode)
 
-[GIN-debug] GET    /                         --> my/route.InitRouter.func1 (3 handlers)
-[GIN-debug] GET    /ping                     --> my/route.InitRouter.func2 (3 handlers)
-[GIN-debug] POST   /person                   --> my/apis.AddPersonApi (3 handlers)
-[GIN-debug] GET    /persons                  --> my/apis.GetPersonsApi (3 handlers)
-[GIN-debug] GET    /person/:id               --> my/route.InitRouter.func3 (3 handlers)
-[GIN-debug] PUT    /persons/:id              --> my/route.InitRouter.func4 (3 handlers)
-[GIN-debug] DELETE /person/:id               --> my/route.InitRouter.func5 (3 handlers)
+[GIN-debug] GET    /                         --> go-gin/route.InitRouter.func1 (3 handlers)
+[GIN-debug] GET    /ping                     --> go-gin/route.InitRouter.func2 (3 handlers)
+[GIN-debug] POST   /person                   --> go-gin/apis.AddPersonApi (3 handlers)
+[GIN-debug] GET    /persons                  --> go-gin/apis.GetPersonsApi (3 handlers)
+[GIN-debug] GET    /person/:id               --> go-gin/route.InitRouter.func3 (3 handlers)
+[GIN-debug] PUT    /persons/:id              --> go-gin/route.InitRouter.func4 (3 handlers)
+[GIN-debug] DELETE /person/:id               --> go-gin/route.InitRouter.func5 (3 handlers)
 [GIN-debug] Listening and serving HTTP on :8000
