@@ -7,7 +7,9 @@ import (
 	"go-gin/route"
 	"reflect"
 )
-
+/**
+	数组有大小，map有关键字
+ */
 func init() {
 	users1 := []int64{1, 2, 4, 8, 16, 32, 64, 128}    // 切片
 	users2 := [...]int64{1, 2, 4, 8, 16, 32, 64, 128} // 数组
